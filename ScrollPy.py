@@ -15,7 +15,7 @@ scrollspeed = 2
 ccc_file = " "
 fontsize = 16
 linecount = 0
-pngsave = "C:\\Users\\ambus\\Desktop\\Scripting\\ScrollingCreds\\credits.png"
+pngsave = "C:\\Change\\this\\Directory\\credits.png"
 png = "credits.png"
 
 
@@ -221,7 +221,7 @@ H_entry.insert(0, "1080")
 progress = ttk.Progressbar(root, mode ="indeterminate")
 progress.place(anchor='center', rely=.9, relwidth=1, relheight=.03)
 
-filename = 'C:\\Users\\ambus\\Desktop\\Scripting\\ScrollingCreds\\credits.png'
+filename = 'C:\\Change\\this\\Directory\\credits.png'
 img = Image.open(filename)
 img2 = img.copy()
 Image.Image.close(img)
